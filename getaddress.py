@@ -11,4 +11,5 @@ class GetAddress:
         result = json_variable["result"]
         self.country = result["country"]
         self.region = result["region"]
+        print("retrieved info for "+postcode)
 
